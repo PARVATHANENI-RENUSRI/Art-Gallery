@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to bottom right, #e0f7fa, #b2ebf2); /* Light cyan gradient */
+    font-family: 'Arial', sans-serif;
+}
+
+.custom-navbar {
+    background: linear-gradient(to right, #ff8c00, #ffd700); /* Gradient from orange to gold */
+}
+
+.nav-link {
+    color: #ffffff; /* White color for navbar links */
+}
+
+h1 {
+    color: #2e7d32; /* Dark green color for heading */
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555; /* Gray color for paragraph */
+    font-size: 1.2em;
+}
+
+.request-form {
+    background: rgba(255, 255, 255, 0.9); /* Light background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #ffffff; /* White background for the footer */
+    color: #555;
+    width: 100%;
+    position: relative;
+}

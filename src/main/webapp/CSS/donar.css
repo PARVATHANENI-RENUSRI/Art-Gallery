@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb); /* Light blue gradient */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    height: 100vh; /* Full viewport height */
+    color: #333; /* Dark text for better readability */
+}
+
+.navbar {
+    background: linear-gradient(to right, #FF6F61, #D05C83); /* Gradient for navbar */
+    color: white; /* White text color for navbar items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.navbar .nav-link {
+    color: white !important; /* Ensuring nav-link text is white */
+}
+
+.navbar .nav-link:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.container {
+    flex-grow: 1; /* Allow the container to expand */
+    text-align: center; /* Center text within the container */
+}
+
+.custom-btn {
+    padding: 15px 30px; /* Larger button padding for better aesthetics */
+    font-size: 18px; /* Increased font size for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth background transition */
+    background: linear-gradient(to right, #FF9A00, #FF6F61); /* Gradient for buttons */
+    color: white; /* White text for contrast */
+    border: none; /* Remove default border */
+}
+
+.custom-btn:hover {
+    opacity: 0.9; /* Slightly fade the button on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+footer {
+    background: linear-gradient(to right, #FF6F61, #D05C83); /* Footer gradient */
+    color: white; /* White text for footer */
+    padding: 20px 0; /* Padding for footer */
+    position: relative; /* Allow positioning of footer */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width for footer */
+}
